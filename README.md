@@ -17,17 +17,17 @@ and downloaded the Yellow Taxi data for October 2024 in Parquet format.
 
 The link to the data is:
 
-https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-11.parquet
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-11.parquet
 
 We also downloaded the zone mapping for pickup and dropoff locations from:
 
-https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page#:~:text=Taxi%20Zone%20Lookup%20Table
+wget https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv
 
 It is available on the same website on Taxi Zone Lookup Table.
 
 We then downloaded hourly weather conditions for New York City for NOAA.
 
-https://www.ncei.noaa.gov/data/local-climatological-data/access/2024/
+wget https://www.ncei.noaa.gov/data/local-climatological-data/access/2024/
 
 The proper weather station ID is 72505394728. The direct link is:
 
