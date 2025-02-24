@@ -1,7 +1,9 @@
 # Sample MSBA 405 Pipeline (Final Project)
 # Pipeline to Power NYC Taxi vs Weather Analysis
 
-In the `README.md` you must provide enough information for us to download the dataset
+**NOTE: To run certain examples, see the README in the luigi and airflow directories.**
+
+In the `README.md`you must provide enough information for us to download the dataset
 and run the pipeline on our own machines.
 
 This should be "fire and forget." We should be able to execute one command to run the pipeline.
@@ -31,7 +33,7 @@ The proper weather station ID is 72505394728. The direct link is:
 
 https://www.ncei.noaa.gov/data/local-climatological-data/access/2024/72505394728.csv
 
-Clone this repo containing our code and move the data files into the root of the repo
+Clone this repo containing our code and move the data files into the data directory of the repo
 so the pipeline can read them.
 
 Then run
