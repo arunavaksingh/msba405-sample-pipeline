@@ -27,11 +27,11 @@ It is available on the same website on Taxi Zone Lookup Table.
 
 We then downloaded hourly weather conditions for New York City for NOAA.
 
-wget https://www.ncei.noaa.gov/data/local-climatological-data/access/2024/
+https://www.ncei.noaa.gov/data/local-climatological-data/access/2024/
 
 The proper weather station ID is 72505394728. The direct link is:
 
-https://www.ncei.noaa.gov/data/local-climatological-data/access/2024/72505394728.csv
+wget https://www.ncei.noaa.gov/data/local-climatological-data/access/2024/72505394728.csv
 
 Clone this repo containing our code and move the data files into the data directory of the repo
 so the pipeline can read them.
